@@ -8,6 +8,7 @@ def helper(tuple_x=()):
     else:
         return (tuple_x[0], tuple_x[1])
 
+
 def add_tuple(tuple_a=(), tuple_b=()):
     a, b = helper(tuple_a)
     c, d = helper(tuple_b)
